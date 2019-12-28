@@ -1,0 +1,79 @@
+.modalHeader {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modalTitle {
+  text-transform: capitalize !important;
+  color: green;
+}
+
+.addButton {
+  margin: 1em;
+}
+
+.removeButton {
+  margin: 1em;
+}
+
+.pokeContent {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 10px ;
+  border-bottom: 1px inset rgba(0, 0, 0, 0.10);
+}
+
+.pokeContent:last-child {
+  border-bottom: 0px;
+}
+
+.pokeImage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pokeEvolve {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pokeTable {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.pokeTableTitle {
+  font-weight: bold;
+  flex: 0.3;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.pokeTableData {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0.5;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  /* text-align: center; */
+}
+
+.pokeTableData ul {
+  margin: 0px;
+  margin-left: 10px;
+  padding: 0px;
+}
